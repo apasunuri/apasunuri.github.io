@@ -4,14 +4,15 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faEnvelopeOpen, faBlog } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelopeOpen, faBlog, faUser } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedinIn, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 library.add(
   faLinkedinIn,
   faGithub,
   faEnvelopeOpen,
-  faBlog
+  faBlog,
+  faUser
 );
 
 ReactDOM.render(

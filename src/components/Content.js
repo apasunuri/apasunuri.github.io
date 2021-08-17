@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import Typist from 'react-typist';
-import 'react-typist/dist/Typist.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { Link } from 'react-scroll';
 import ContactForm from './ContactForm';
-
+import 'react-typist/dist/Typist.css';
+import '../App.css';
 
 class Content extends Component {
   state = {
@@ -33,8 +34,12 @@ class Content extends Component {
           &nbsp;
           {/*<a href="https://apasunuri.github.io/blog/"><FontAwesomeIcon icon={['fas', 'blog']} size='2x' /></a>
           &nbsp;
-          &nbsp;*/}
-          {/*<a href="mailto:abhinay.pasunuri088@gmail.com"><FontAwesomeIcon icon={['fas', 'envelope-open']} size='2x' /></a>*/}
+    &nbsp;*/}
+          <Link id="link" to="content" spy={true} smooth={true} offset={0} duration={600}>
+            <FontAwesomeIcon icon={['fa', 'user']} size='2x' />
+          </Link>
+          &nbsp;
+          &nbsp;
           <a data-toggle="collapse" href="#contactTarget" aria-expanded="false" aria-controls="contactTarget"><FontAwesomeIcon icon={['fas', 'envelope-open']} size='2x' /></a>
           <div class="collapse" id="contactTarget">
             <ContactForm />

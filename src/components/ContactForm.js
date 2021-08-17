@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useForm as useFormRHF } from 'react-hook-form';
 import axios from 'axios';
+import '../App.js';
 
 const ContactForm = () => {
   const [submitted, setSubmitted] = useState(false);
@@ -21,7 +22,7 @@ const ContactForm = () => {
   }
   return (
     <div className='ContactForm'>
-      <h2 style={{"margin-top": 20, "font-family": "Montserrat"}}>Contact Me!</h2>
+      <h2 className="content-h2" style={{"margin-top": 20, "font-family": "Montserrat"}}>Contact Me!</h2>
       <div className='container'>
         <div className='row'>
           <div className='col-12 text-center'>
@@ -82,7 +83,6 @@ const ContactForm = () => {
                 <div className='row formRow' style={{"margin-top": 20, "margin-bottom": 20, "font-family": "Montserrat"}}>
                   <div className='col'>
                     <textarea
-                      rows={8}
                       id='message'
                       name='message'
                       {...register("message", {
@@ -94,7 +94,7 @@ const ContactForm = () => {
                     {errors.message && <p className='text-danger'>Please enter a message</p>}
                   </div>
                 </div>
-                <button type="submit" className='btn btn-primary'>
+                <button type="submit" className='btn btn-secondary'>
                   Submit
                 </button>
               </form>

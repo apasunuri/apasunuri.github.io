@@ -2,7 +2,7 @@ html,
 body {
   margin: 0;
   height: 100vh;
-  background-color: #1a222c;
+  background-color: #ffffff;
 }
 
 .App {
@@ -21,6 +21,12 @@ body {
   }
 }
 
+@media (max-height: 750px), (max-width: 420px) {
+  .text-danger {
+    font-size: small;
+  }
+}
+
 .App-header {
   z-index: 1;
   position: absolute;
@@ -35,7 +41,18 @@ body {
 }
 
 .App-link {
-  color: #61dafb;
+  color: #1a222c;
+}
+
+.jumbotron {
+  background-size: cover;
+  height: 100vh;
+  padding-top: 0px;
+  background-color: #1a222c;
+}
+
+.badge {
+  background-color: #1a222c;
 }
 
 @keyframes App-logo-spin {
@@ -53,10 +70,40 @@ h1 {
   font-weight: 800;
 }
 
+@media (max-height: 750px), (max-width: 420px) {
+  h1 {
+    font-size: 40px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+  }
+}
+
+.content-h2 {
+  font-size: 50px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+}
+
+@media (max-height: 750px), (max-width: 420px) {
+  .content-h2 {
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+  }
+}
+
 h6 {
   font-size: 20px;
   font-family: "Montserrat", sans-serif;
   font-weight: 100;
+}
+
+@media (max-height: 750px), (max-width: 420px) {
+  h6 {
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 100;
+  }
 }
 
 a {
@@ -73,7 +120,7 @@ a:hover {
 }
 
 p {
-  font-size: 15px;
+  font-size: 20px;
 }
 
 .form-control:focus {
@@ -83,14 +130,16 @@ p {
 
 .btn {
   padding: 10px 34px;
-  border: 0 none;
+  border: 1 none;
+  border-color: #1a222c;
   font-weight: 700;
 }
 
 .btn:focus,
-.btn:active:focus,
+.btn:active,
 .btn.active:focus {
   outline: 0 none;
+  border-color: #1a222c;
 }
 
 .btn-primary {
@@ -107,6 +156,20 @@ p {
   background: #000000;
 }
 
+.btn-secondary {
+  background-color: #fff;
+  color: #1a222c;
+  font-family: "Montserrat", sans-serif;
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus,
+.btn-secondary:active,
+.btn-secondary.active,
+.open > .dropdown-toggle.btn-primary {
+  background: #1a222c;
+}
+
 #tsparticles {
   width: 100%;
   height: 100%;
@@ -114,6 +177,12 @@ p {
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
+}
+
+#content {
+  margin-top: 30px;
+  margin-left: 60px;
+  margin-right: 60px;
 }
 
 .body-particles {
@@ -130,4 +199,39 @@ p {
 .text {
   background-color: transparent;
   color: white;
+}
+
+.about-h2 {
+  font-size: 50px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  color: #1a222c;
+}
+
+@media (max-height: 750px), (max-width: 420px) {
+  .about-h2 {
+    font-size: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+  }
+}
+
+#link {
+  color: rgb(255, 255, 255);
+  transition: color 0.5s;
+}
+
+#link:hover {
+  color: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+textarea {
+  height: 8em;
+}
+
+@media (max-height: 750px), (max-width: 420px) {
+  textarea {
+    height: 4em;
+  }
 }
