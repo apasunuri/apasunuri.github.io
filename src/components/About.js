@@ -23,7 +23,7 @@ class About extends Component {
             },
             {
                 name: 'Pascal Programming Language Interpreter', 
-                description: 'An interpreter for the Pascal Programming language developed using Haskell and functional programming.',
+                description: 'An interpreter for the Pascal programming language developed using Haskell and functional programming.',
                 repo: 'https://github.com/apasunuri/Pascal-Interpreter-Haskell',
                 languages: [{name: 'Haskell', percentage: 70.2}, {name: 'Yacc', percentage: 14}, {name: 'Pascal', percentage: 10.2}, {name: 'Logos', percentage: 5.6}],
                 date: 'May 11, 2020'
