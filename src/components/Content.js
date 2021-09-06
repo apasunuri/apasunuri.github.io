@@ -26,7 +26,7 @@ class Content extends Component {
               Master's in Computer Science Student
             </Typist>
           </h6>
-          <a href="https://www.linkedin.com/in/apasunuri" target="_blank"><FontAwesomeIcon icon={['fab', 'linkedin-in']} size='2x' /></a>
+          <a href="https://www.linkedin.com/in/abhinay-pasunuri" target="_blank"><FontAwesomeIcon icon={['fab', 'linkedin-in']} size='2x' /></a>
           &nbsp;
           &nbsp;
           <a href="https://www.github.com/apasunuri" target="_blank"><FontAwesomeIcon icon={['fab', 'github']} size='2x' /></a>
