@@ -8,11 +8,11 @@ class About extends Component {
     state = {
         projects: [
             {
-                name: 'Class Depdendent Effects of Regularization in Sequential Models and Language Data', 
+                name: 'Class Dependent Effects of Regularization in Sequential Models and Language Data', 
                 description: "An experimental study was performed to study the effects of Neural Network regularization on class-based accuracies in multiclass classification specifically for sequential models and language data.",
                 repo: 'https://github.com/apasunuri/Class-Based-Regularization-Effects-in-NLP',
                 languages: [{name: 'Python', percentage: 100.0}],
-                date: 'May 23, 2022'
+                date: 'May 30, 2022'
             },
             {
                 name: 'GatorNexus', 
@@ -36,7 +36,7 @@ class About extends Component {
         <div>
             <h2 className="about-h2">About Me</h2>
             &nbsp;
-            <p style={{ color: '#000000', 'font-family': 'Montserrat' }}>Hello! I am currently pursuing my Master's degree in Computer Science with a focus in Machine Learning at Columbia University. I completed my undergraduate education at the University of Florida with a degree in Computer Science. I have interests in the fields of Artificial Intelligence, Machine Learning, and Data Science. I greatly enjoy learning, exploring, and developing new things in the realm of Computer Science and Technology.</p>
+            <p style={{ color: '#000000', 'font-family': 'Montserrat' }}>Hello! I am currently pursuing my Master's degree in Computer Science with a focus on Machine Learning at Columbia University. I completed my undergraduate education at the University of Florida with a degree in Computer Science. I have interests in the fields of Artificial Intelligence, Machine Learning, and Data Science. I greatly enjoy learning, exploring, and developing new things in the realm of Computer Science and Technology.</p>
             <br />
             <h2 className="about-h2">Projects</h2>
             &nbsp;
