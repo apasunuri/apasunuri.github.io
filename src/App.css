@@ -21,7 +21,7 @@ body {
   }
 }
 
-@media (max-height: 750px), (max-width: 420px) {
+@media (max-height: 720px), (max-width: 420px) {
   .text-danger {
     font-size: small;
   }
@@ -64,14 +64,14 @@ body {
   }
 }
 
-h1 {
-  font-size: 70px;
+.content-h1 {
+  font-size: 60px;
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
 }
 
-@media (max-height: 750px), (max-width: 420px) {
-  h1 {
+@media (max-height: 720px), (max-width: 420px) {
+  .content-h1 {
     font-size: 40px;
     font-family: "Montserrat", sans-serif;
     font-weight: 800;
@@ -84,7 +84,7 @@ h1 {
   font-weight: 800;
 }
 
-@media (max-height: 750px), (max-width: 420px) {
+@media (max-height: 720px), (max-width: 420px) {
   .content-h2 {
     font-size: 20px;
     font-family: "Montserrat", sans-serif;
@@ -98,7 +98,7 @@ h6 {
   font-weight: 100;
 }
 
-@media (max-height: 750px), (max-width: 420px) {
+@media (max-height: 720px), (max-width: 420px) {
   h6 {
     font-size: 15px;
     font-family: "Montserrat", sans-serif;

@@ -20,7 +20,7 @@ class Content extends Component {
   render() {
     return (
       <div>
-          <h1>Abhinay Pasunuri</h1>
+          <h1 className="content-h1">Abhinay Pasunuri</h1>
           <h6>
             <Typist avgTypingDelay={80} stdTypingDelay={35} cursor={{ show: true, blink: true}}>
               Master's in Computer Science Student
@@ -34,7 +34,7 @@ class Content extends Component {
           &nbsp;
           {/*<a href="https://apasunuri.github.io/blog/"><FontAwesomeIcon icon={['fas', 'blog']} size='2x' /></a>
           &nbsp;
-    &nbsp;*/}
+          &nbsp;*/}
           <Link id="link" to="content" spy={true} smooth={true} offset={0} duration={600}>
             <FontAwesomeIcon icon={['fa', 'user']} size='2x' />
           </Link>

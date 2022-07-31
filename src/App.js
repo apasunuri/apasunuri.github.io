@@ -88,7 +88,7 @@ function App() {
                 detectRetina: true,
               }}
             />
-            </div>
+          </div>
           <div className="App-header container">
             <Content />
           </div>
