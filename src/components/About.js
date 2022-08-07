@@ -9,7 +9,7 @@ class About extends Component {
         projects: [
             {
                 name: 'Class Dependent Effects of Regularization in Sequential Models and Language Data', 
-                description: "An experimental study was performed to study the effects of Neural Network regularization on class-based accuracies in multiclass classification specifically for sequential models and language data.",
+                description: "An experimental study that was performed to study the effects of Neural Network regularization on class-based accuracies in multiclass classification specifically for sequential models and language data.",
                 repo: 'https://github.com/apasunuri/Class-Based-Regularization-Effects-in-NLP',
                 languages: [{name: 'Python', percentage: 100.0}],
                 date: 'May 30, 2022'
