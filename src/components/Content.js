@@ -23,7 +23,7 @@ class Content extends Component {
           <h1 className="content-h1">Abhinay Pasunuri</h1>
           <h6>
             <Typist avgTypingDelay={80} stdTypingDelay={35} cursor={{ show: true, blink: true}}>
-              Master's in Computer Science Student
+              Machine Learning Engineer
             </Typist>
           </h6>
           <a href="https://www.linkedin.com/in/abhinay-pasunuri" target="_blank"><FontAwesomeIcon icon={['fab', 'linkedin-in']} size='2x' /></a>

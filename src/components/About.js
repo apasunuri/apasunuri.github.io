@@ -36,7 +36,7 @@ class About extends Component {
         <div>
             <h2 className="about-h2">About Me</h2>
             &nbsp;
-            <p style={{ color: '#000000', 'font-family': 'Montserrat' }}>Hello! I am currently pursuing my Master's degree in Computer Science with a focus on Machine Learning at Columbia University. I completed my undergraduate education at the University of Florida with a degree in Computer Science. I have interests in the fields of Machine Learning, Deep Learning, and Data Science. I greatly enjoy learning, exploring, and developing new things in the realm of Computer Science and Technology.</p>
+            <p style={{ color: '#000000', 'font-family': 'Montserrat' }}>Hello! My name is Abhinay Pasunuri and I am a Machine Learning Engineer based out of the Bay Area. I have interests in the fields of Machine Learning, Deep Learning, and Data Science and I am very passionate about using my skills and expertise to develop Machine Learning and Data-Driven solutions to challenging problems.</p>
             <br />
             <h2 className="about-h2">Projects</h2>
             &nbsp;
